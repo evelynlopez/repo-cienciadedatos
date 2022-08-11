@@ -1,0 +1,14 @@
+algoritmo calcularArea
+
+variable
+  lado, area
+
+inicio
+  escribir("inserte la medida de un lado del cuadrado en cm")
+  leer(numero(lado));
+  area =lado^2
+  escribir = "el área del cuadrado es:" + area;
+fin
+
+
+	
