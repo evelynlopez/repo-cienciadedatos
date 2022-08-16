@@ -30,7 +30,7 @@ class MaestroDeFisica extends Maestro{
         s.nombre=nombre;
         s.grupo=grupo;
         this.antiguedad=antiguedad;
-        this.calificaciones=[];       
+        s.calificaciones=[];       
     }
     getAntiguedad(){
         return this.antiguedad;
@@ -42,7 +42,7 @@ class MaestroDeMusica extends Maestro{
         s.nombre=nombre;
         s.grupo=grupo;
         this.edad=edad;
-        this.calificaciones=[];       
+        s.calificaciones=[];       
     }
     getEdad(){
         return this.edad;
